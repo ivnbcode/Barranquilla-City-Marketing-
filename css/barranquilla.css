@@ -1,0 +1,70 @@
+header{
+    background: #fff394;
+    color: #000000;
+    padding: 10px;
+    box-shadow: 0 2px 3px 0px #000000;
+}
+
+.logo{
+    width: 68px;
+    height: 63px;
+    display: inline-block;  
+}
+#slider{
+    box-shadow: 0 2px 3px 0px #000000;
+}
+.color-blue{
+    background: #64baff;
+    box-shadow: 0 2px 3px 0px #000000;
+    padding: 20px;
+}
+
+.color-green{
+    background: #9bdb4d;
+    box-shadow: 0 2px 3px 0px #000000;
+    padding: 20px;
+}
+.color-orange{
+    background: #ffa154;
+    box-shadow: 0 2px 3px 0px #000000;
+    padding: 20px;
+}
+.color-red{
+    background: #ed5353;
+    box-shadow: 0 2px 3px 0px #000000;
+    padding: 20px;
+}
+.app img{
+    width: 100%;
+    height: 100%;
+    /*max-width: 340px;
+    max-height: 512px;*/
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    margin-top: 0px;   
+}
+.bqslider img{
+    padding: 0px;
+    margin: 0px;
+}
+section.container{
+    padding-left: 0%;
+    padding-right: 0%;
+    
+}
+.card{
+    margin-bottom: 25px;
+    text-align: justify;
+        
+}
+footer{
+    background: #d4d4d4;
+    color: #4d4d4d;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
