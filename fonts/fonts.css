@@ -1,0 +1,22 @@
+
+@font-face {
+font-family: 'Mistral';
+font-style: normal;
+font-weight: normal;
+src: local('Mistral'), url('MISTRAL.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'Weltron 2001';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Weltron 2001'), url('WELTRON2.woff') format('woff');
+    }
+    
+    
+    @font-face {
+    font-family: 'Weltron Special Power';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Weltron Special Power'), url('WELTSP__.woff') format('woff');
+    }
