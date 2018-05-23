@@ -7,10 +7,14 @@ header{
     text-align: center;
     box-sizing: border-box;
 }
-
+#titlebq{
+    margin-left: 5px;
+}
 .logo{
     max-width: 88px;
     max-height: 83px;
+    margin-right: 0px;
+    padding-right: 0px;
     display: inline-block; 
 }
 .bqcm{
@@ -87,10 +91,22 @@ footer{
     height: 300px;
     box-shadow: 0 -3px 3px 0px #000000;
 }
-.aboutus{
+#aboutus{
+    font-size: 40px;
     text-shadow:
      -2px -1px 6px #fff,  
       2px -1px 6px #fff,
      -2px 1px 6px #fff,
       2px 1px 6px #fff;
+}
+#we{
+    color: white;
+    text-align: center;
+}
+.ualink{
+    background: #ffffff;
+    align-items: center;
+    float: right;
+    box-shadow: 0 2px 3px 0px #000000;
+    margin: 5px;
 }
