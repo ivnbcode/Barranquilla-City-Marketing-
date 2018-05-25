@@ -39,33 +39,9 @@ header{
       1px 1px 0 #fff;
 }
 
+/*slider*/
 #slider{
     box-shadow: 0 2px 3px 0px #000000;
-}
-.color-blue{
-    background: #64baff;
-    box-shadow: 0 2px 3px 0px #000000;
-    padding: 20px;
-}
-
-.color-green{
-    background: #9bdb4d;
-    box-shadow: 0 2px 3px 0px #000000;
-    padding: 20px;
-}
-.color-orange{
-    background: #ffa154;
-    box-shadow: 0 2px 3px 0px #000000;
-    padding: 20px;
-}
-.color-red{
-    background: #ed5353;
-    box-shadow: 0 2px 3px 0px #000000;
-    padding: 20px;
-}
-.app img{
-    width: 100%;
-    height: 100%;
 }
 .carousel-inner img {
     width: 100%;
@@ -79,16 +55,86 @@ header{
     padding: 0px;
     margin: 0px;
 }
+
+/*cards*/
 .card{
-    margin-bottom: 25px;
-    text-align: justify;
+    margin: 10px;
 }
+.color-blue{
+    background: #64baff;
+    box-shadow: 0 2px 3px 0px #000000;
+    padding: 3px;
+    color: white;
+}
+.color-green{
+    background: #9bdb4d;
+    box-shadow: 0 2px 3px 0px #000000;
+    padding: 3px;
+}
+.color-orange{
+    background: #ffa154;
+    box-shadow: 0 2px 3px 0px #000000;
+    padding: 3px;
+}
+.color-red{
+    background: #ed5353;
+    box-shadow: 0 2px 3px 0px #000000;
+    padding: 3px;
+    color: white;
+}
+/*app*/
+.appimg{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+#app{
+    background: #FCFBFA;
+    box-shadow: 0 2px 3px 0px #000000;
+}
+#app .card{
+    margin: 6px;
+    box-shadow: 0 2px 3px 0px #000000;
+    padding: 0px;
+}
+.color-app-1{
+    background: #fff394;
+    box-shadow: 0 2px 3px 0px #000000;
+    padding: 5px;
+}
+.color-app-2{
+    background: #8cd5ff;
+    box-shadow: 0 2px 3px 0px #000000;
+    padding: 5px;
+}
+.color-app-3{
+    background:#ff8c82 ;
+    box-shadow: 0 2px 3px 0px #000000;
+    padding: 5px;
+}
+.color-app-4{
+    background: #d1ff82;
+    box-shadow: 0 2px 3px 0px #000000;
+    padding: 5px;
+}
+.color-app-5{
+    background: #FFBDFF;
+    box-shadow: 0 2px 3px 0px #000000;
+    padding: 5px;
+}
+.color-app-6{
+    background:#ffc27d ;
+    box-shadow: 0 2px 3px 0px #000000;
+    padding: 5px;
+}
+
+/*footer*/
 footer{
     background: #1a1a1a;
     color: #4d4d4d;
     margin-bottom: 0px;
     padding-bottom: 0px;
-    height: 300px;
     box-shadow: 0 -3px 3px 0px #000000;
 }
 #aboutus{
@@ -102,11 +148,19 @@ footer{
 #we{
     color: white;
     text-align: center;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    font-size: 14px;
 }
-.ualink{
-    background: #ffffff;
-    align-items: center;
-    float: right;
-    box-shadow: 0 2px 3px 0px #000000;
+#ualink{
+    background: #1a1a1a;
+    box-shadow: 0 2px 3px 0px #d4d4d4;
     margin: 5px;
+    max-height: 100px;
+    max-width: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+     border-radius: 50%;
+     float: right;
+         
 }
